@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main1">
+        <div class="main">
+            <h1>Counter</h1>
+            <label id="demo">0</label>
+                       <div class="but">
+                <button id="decreasebtn">Decrease</button>
+                <button id="resetbtn">Reset</button>
+                <button id="increasebtn">Increase</button>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let count =0;
+        document.getElementById("decreasebtn").onclick=function () {
+            count -=1;
+            document.getElementById("demo").innerHTML=count;
+            
+        }
+        document.getElementById("resetbtn").onclick=function () {
+            count=0;
+            document.getElementById("demo").innerHTML=count;
+            
+        }
+        document.getElementById("increasebtn").onclick=function () {
+            count+=1;
+            document.getElementById("demo").innerHTML=count;
+        }
+           </script>
+    
+
+</body>
+
+</html>

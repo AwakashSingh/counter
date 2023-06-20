@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+
+    background-color: aqua;
+}
+label{
+    background-color: azure;
+    width: 200px;
+    height: 38px;
+    font-size: xx-large;
+}
+.but{
+    margin-top: 40px;
+}
+button{
+    width: 140px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size:xx-large;
+}
+button:hover{
+    background-color: red;
+}
